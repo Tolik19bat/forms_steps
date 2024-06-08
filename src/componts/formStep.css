@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ddc6b7;
+    min-height: 100vh;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    display: block;
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+}
+
+.textForm {
+    font-size: 0.8rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.dateSize {
+    width: 7rem;
+    height: 1rem;
+    margin-right: 1rem;
+    padding: 0.5em;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.numberSize {
+    width: 7rem;
+    height: 1rem;
+    margin-right: 1rem;
+    padding: 0.5em;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.buttonSize {
+    width: 4rem;
+    height: 2rem;
+    margin-top: 3rem;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.trHeader {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tableText {
+    font-size: 0.8rem;
+}
+
+.tbody {
+    display: block;
+}
+
+.tableBodyContainer {
+    width: 22.2rem;
+    min-height: 5rem;
+     border: 2px solid;
+    border-radius: 15px;
+}
+
+.tr {
+    width: 22rem;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.tableTextBody {
+    margin: 1rem 0.4rem 0.5rem 0.4rem;
+}
+
+#buttonDelete {
+    border: none;
+    background-color: inherit;
+}
